@@ -3,16 +3,25 @@ body {
     font: 100%;
 }
 
+.onigiri {
+    background-color: antiquewhite;
+}
+
 .emoji {
-    font-size: 10em;
+    font-size: 20em;
     animation: rotate 3s infinite linear;
+    margin: 100mm;
   }
   
   @keyframes rotate {
     from {
       transform: rotateY(0);
+      transform: rotateX(0);
+      transform: rotateZ(0);
     }
     to {
       transform: rotateY(360deg);
+      transform: rotateX(360deg);
+      transform: rotateZ(360deg);
     }
 }  
